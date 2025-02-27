@@ -3,7 +3,7 @@
 A fully responsive single-component card designed with modern CSS techniques and semantic HTML. This project is inspired by Kevin Powell’s responsive design approach.
 
 ## 🛰 Live Demo  
-🔗 [View Project](https://bhavikthakur.github.io/stats-preview-card/)  
+🔗 [View Project](https://bhavikthakur.github.io/apple-trick-component/)  
 
 ## 📸 Preview  
 ![Project Screenshot](./design/desktop-view.png)  
