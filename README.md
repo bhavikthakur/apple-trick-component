@@ -36,7 +36,7 @@ A fully responsive single-component card designed with modern CSS techniques and
 ## 🔧 Setup & Usage  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/social-links-profile.git    
+   git clone https://github.com/bhavikthakur/apple-trick-component.git  
 2. Open index.html in your browser. 
 
 ## 🛠️ Future enhancement  
