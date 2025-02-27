@@ -1,0 +1,97 @@
+/* ----------------STYLES--------------------------------- */
+:root {
+    --clr-blue-400: #05CBE9;
+    --clr-blue-700: #111D4A;
+    --clr-white-500: #ffffff;
+}
+
+
+body {
+    font-family: "Source Sans 3", serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+
+}
+
+/* ---------------TYPOGRAPHY---------------------- */
+.card__title {
+    color: var(--clr-blue-400);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1
+}
+
+.card__btn {
+    font-size: 0.85rem;
+    font-weight: 700;
+    align-self: flex-end;
+    display: inline-block;
+    padding: 0.5em 2em;
+    background-color: var(--clr-blue-400);
+    color: var(--clr-blue-700);
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    margin-left: 0.5em;
+}
+
+.card__btn:hover,
+.card__btn:focus {
+    transform: scale(1.1);
+    background-color: var(--clr-white-500);
+    color: var(--clr-blue-700);
+}
+
+
+.card__strong {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.card__time {
+    line-height: 1.2;
+}
+
+.card__description {
+    margin-top: 1.5em;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+}
+
+/* ---------------LAYOUT-------------------------- */
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__main {
+    background-color: var(--clr-blue-700);
+    padding: 2em;
+
+}
+
+
+.card__img {
+    max-height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: var(--clr-blue-400);
+}
+
+
+.card__read {
+    margin-top: 5.5em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
